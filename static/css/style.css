@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.slick-slide {
+    width: 180px;
+}
+
+.slider-for div {
+    text-align: center;
+    padding: 5px;
+}
+
+.slider-nav div {
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 0;
+}
+
+.slider-for {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.slider-for img {
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+.slider-nav {
+    max-width: 68%;
+    margin: 0 auto;
+}
+
+.slider-nav img {
+    border-radius: 25%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.slider-nav .slick-current img {
+    border: 2px solid white;
+    opacity: 1;
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+    .slick-slide {
+        width: 50px;
+    }
+
+    .slider-for {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .slider-for div {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .slider-for img {
+        border-radius: 10%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .slider-nav {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .slider-nav div {
+        text-align: center;
+        margin: 10px 10px 0px 10px;
+        padding: 10px 0;
+    }
+    .slider-nav img {
+        width: 65px;
+        height: auto;
+        border-radius: 25%;
+        cursor: pointer;
+        opacity: 0.5;
+    }
+
+}
+
+
+
+.navbar-dark .navbar-toggler {
+      border: none;
+}
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(/static/img/menu.png);
+}
+
